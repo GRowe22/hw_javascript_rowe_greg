@@ -40,3 +40,6 @@ var president5 = {
     party: 'Republican',
     yearsOfPresidency: 8
 };
+
+var president = [president1, president2, president3, president4, president5];
+console.log(president[2].firstName, president[2].lastName);

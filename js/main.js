@@ -43,3 +43,10 @@ var president5 = {
 
 var president = [president1, president2, president3, president4, president5];
 console.log(president[2].firstName, president[2].lastName);
+
+function howdy(person, message) {
+    return person + 'says' + message;
+}
+
+var message = howdy('Greg Rowe ', ' hi!');
+console.log(message);

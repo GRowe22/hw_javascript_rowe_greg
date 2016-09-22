@@ -66,3 +66,8 @@ var numba = function (string) {
 function inception(display, favMovie) {
     display(favMovie);
 }
+
+inception(function (display) {
+    console.log(favMovie + ' is a fantastic movie.');
+},
+    'Top Gun');
